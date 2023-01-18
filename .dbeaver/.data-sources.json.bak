@@ -1,0 +1,33 @@
+{
+	"folders": {},
+	"connections": {
+		"postgres-jdbc-185a64085d9-59fe91366065e1fe": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "g16",
+			"save-password": true,
+			"configuration": {
+				"host": "datenbanken.ddns.net",
+				"port": "5432",
+				"database": "g16",
+				"url": "jdbc:postgresql://datenbanken.ddns.net:5432/g16",
+				"configurationType": "MANUAL",
+				"home": "postgresql_client",
+				"type": "dev",
+				"provider-properties": {},
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
